@@ -1,9 +1,9 @@
 # qatools
-Quality Assesment Tools for ALMA
+Quality Assesment Tools for ALMA Observatory
 
 Includes tools for manipulating ALMA raw data, implementing methods to access the specifications on this document: http://almasw.hq.eso.org/almasw/pub/HLA/ASDMImplementation2FBT/SDMTables_postSDM2FBT.pdf
 
-Methods like:
+It provides methods like:
 
 def getTable(self, rownum = None):
   """Returns the content of a particular table in a python list"""
